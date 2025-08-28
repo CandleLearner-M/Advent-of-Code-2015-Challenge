@@ -1,8 +1,8 @@
-import fs, {readFileSync} from 'fs';
+import fs from 'fs';
 
 let floor = 0;
 
-const input = readFileSync('./input.txt').toString();
+const input = fs.readFileSync('../input.txt').toString();
 
 // for (let i = 0; i < input.length; i++) {
 //   if (input[i] === '(') {
